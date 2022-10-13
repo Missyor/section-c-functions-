@@ -1,0 +1,22 @@
+def multiply(x, y):
+  return X * y
+ 
+def divide(x, y):
+  return x/y
+  
+import random
+
+print("select operation")
+print("1. multiply")
+print("2. Divide")
+
+choice = input("Enter choice: 1 or 2: ")
+
+num1 = random.int(1, 12)
+num2 = random.int(1, 12)
+
+if choice == "1":
+  print(num1, "*", num2, "=", multiply(num1, num2))
+elif choice = "2":
+  print(num1, "/", num2, "=", divide(num1, num2))
+  
